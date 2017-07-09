@@ -1,0 +1,25 @@
+﻿  bibl.cpp
+  mat_model.cpp
+mat_model.cpp(9): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+mat_model.cpp(23): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+  runge.cpp
+  runge_func.cpp
+  stdafx.cpp
+  xz.cpp
+  dllmain.cpp
+     Creating library \\Mac\Home\Desktop\lunar-create_dll\TestCPPLibrary\Release\TestCPPLibrary.lib and object \\Mac\Home\Desktop\lunar-create_dll\TestCPPLibrary\Release\TestCPPLibrary.exp
+  Generating code
+  35 of 35 functions (100.0%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+bibl.obj : warning LNK4099: PDB 'vc141.pdb' was not found with 'bibl.obj' or at '\\Mac\Home\Desktop\lunar-create_dll\TestCPPLibrary\Release\vc141.pdb'; linking object as if no debug info
+dllmain.obj : warning LNK4099: PDB 'vc141.pdb' was not found with 'dllmain.obj' or at '\\Mac\Home\Desktop\lunar-create_dll\TestCPPLibrary\Release\vc141.pdb'; linking object as if no debug info
+mat_model.obj : warning LNK4099: PDB 'vc141.pdb' was not found with 'mat_model.obj' or at '\\Mac\Home\Desktop\lunar-create_dll\TestCPPLibrary\Release\vc141.pdb'; linking object as if no debug info
+runge.obj : warning LNK4099: PDB 'vc141.pdb' was not found with 'runge.obj' or at '\\Mac\Home\Desktop\lunar-create_dll\TestCPPLibrary\Release\vc141.pdb'; linking object as if no debug info
+runge_func.obj : warning LNK4099: PDB 'vc141.pdb' was not found with 'runge_func.obj' or at '\\Mac\Home\Desktop\lunar-create_dll\TestCPPLibrary\Release\vc141.pdb'; linking object as if no debug info
+stdafx.obj : warning LNK4099: PDB 'vc141.pdb' was not found with 'stdafx.obj' or at '\\Mac\Home\Desktop\lunar-create_dll\TestCPPLibrary\Release\vc141.pdb'; linking object as if no debug info
+xz.obj : warning LNK4099: PDB 'vc141.pdb' was not found with 'xz.obj' or at '\\Mac\Home\Desktop\lunar-create_dll\TestCPPLibrary\Release\vc141.pdb'; linking object as if no debug info
+  TestCPPLibrary.vcxproj -> \\Mac\Home\Desktop\lunar-create_dll\TestCPPLibrary\Release\TestCPPLibrary.dll
